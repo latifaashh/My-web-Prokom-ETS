@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+.all-content{
+    background: #f7f5f2;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: #166674;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px; 
+}
+
+/* navbar start */
+#navbar{
+    background-color: #166674;
+}
+#logo img{
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar fore button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+/* navbar end */
+
+
+
+
+
+/* home section start */
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/home.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+#home .content{
+    padding-left: 50px;
+    margin-left: 56px;
+}
+#home .content h3{
+    font-size: 60px;
+    color: white;
+}
+#home .content p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+#btn{
+    width: 150x;
+    height: 36px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #166674;
+    color: white;
+}
+/* home section end */
+
+
+
+
+
+
+
+
+/* about section start */
+#about{
+    width: 60%;
+    height: 130vh;
+}
+#about .container{
+    padding-top: 70px;
+    margin-left: 100px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading span{
+    color: #166674;
+}
+#about .card{
+    border-radius: 10px;
+}
+#about .card img{
+    border-radius: 10px;
+}
+#about-btn{
+    width: 100px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #166674;
+    color: #166674;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background-color: #166674;
+    color: white;
+}
+@media screen and (max-width:982px){
+    #about p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:766px){
+    #about p{
+        font-size: 15px;
+    }
+    #about{
+        height: 120vh;
+    }
+}
+/* about section end */
+
+
+
+
+
+
+
+
+/* top cards start */
+#top-cards{
+    width: 100%;
+    /*height: 60vh;*/
+    background: #f7f5f2;
+    text-align: center;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    color: #166674;
+}
+#top-cards .container{
+    margin-top: 30px;
+}
+#top-cards .card{
+    border-radius: 10px;
+    transition: 0,5s;
+    cursor: pointer;
+}
+#top-cards .card img{
+    border-radius: 10px;
+}
+#top-cards .card:hover{
+    transform: translateY(-10px);
+}
+/* top cards end */
+
+
+
+
+
+
+
+
+/* product start */
+#product{
+    width: 100%;
+    margin-top: 60px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #166674;
+    font-weight: bold;
+    border-bottom: 2px solid #166674;
+}
+#container2{
+    margin-top: 50px;
+}
+#product .card{
+    box-shadow: rgba(149,157,165,0.2)0px 8px 24px;
+}
+.star i{
+    color: #166674;
+}
+#product h3{
+    text-align: center;
+    color: #166674;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#product p{
+    font-size: 16px;
+    color: #166674;
+    padding-top: 10px;
+}
+#product p span{
+    float: right;
+    cursor: pointer;
+}
+/* product end */
+
+
+
+
+
+/* best seller section start */
+#best seller{
+    width: 100%;
+}
+.heading4{
+    text-align: center;
+    color: #166674;
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: bold;
+    border-bottom: 2px solid #166674;
+}
+#container3{
+    margin-top: 30px;
+}
+#best seller h3{
+    text-align: center;
+    color: #166674;
+    font-size: 23px;
+}
+#best seller p{
+    color: #166674;
+    padding-top: 10px;
+}
+#best seller p span{
+    float: right;
+    cursor: pointer;
+}
+/* best seller section end */
+
+
+
+
+
+
+
+
+/* our gallary start */
+#gallary{
+    width: 100%;
+}
+.heading5{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#gallary .heading5 span{
+    color: #166674;
+}
+#gallary .card{
+    border-radius: 10px;
+    cursor: pointer;
+}
+#gallary .card img{
+    border-radius: 10px;
+}
+/* our gallary end */
+
+
+
+
+
+
+
+
+/* contact start */
+#contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #166674 20%);
+    border-radius: 10px;
+}
+.heading6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.heading6 span{
+    color: #166674;
+}
+#contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+#contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #166674;
+}
+#contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #166674;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#col{
+    width: 40%;
+    height: 40vh;
+    background: black;
+    margin-top: 78px;
+}
+#contact h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#contact #col p{
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+@media screen and (max-width:766px){
+    #contact .container{
+        background: white;
+    }
+    #col{
+        width: 100%;
+        background: #166674;
+    }
+    #contact{
+        height: 150vh;
+    }
+}
+@media screen and (max-width:400px){
+    #contact input{
+        width: 250px;
+    }
+}
+/* contact end */
+
+
+
+
+
+/* blogs start */
+#blogs{
+    width: 100%;
+}
+#blogs .heading7{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+#blogs .heading7 span{
+    color: #166674;
+}
+#blogs .container{
+    margin-top: 60px;
+}
+#blogs h5{
+    color: #166674;
+}
+#blog-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: white;
+    background: #166674;
+    cursor: pointer;
+}
+/* blogs end */
+
+
+
+
+
+
+/* footer start */
+#footer{
+    width: 100%;
+    background: #166674;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.socail-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+.credits a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
+/* footer end */
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+}
